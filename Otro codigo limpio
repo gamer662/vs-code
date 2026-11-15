@@ -1,0 +1,12 @@
+TAXRATE = 0.2  # Tasa de impuesto
+
+def Tax(Price): 
+    return Price * TAXRATE  # Calcula el impuesto a partir del precio
+
+def sum_prices(a, b, c, d): 
+    return a + b + c + d  # Calcula la suma de los precios proporcionados
+
+total = sum_prices(100, 200, 300, 400)
+tax = Tax(TOTAL)
+FinalPrice = TOTAL + TAX
+print("El precio final es:", FinalPrice)  # Muestra el precio final
