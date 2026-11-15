@@ -1,0 +1,24 @@
+def calc_points(a, b, c):
+    total = a + b + c
+    return total
+
+
+def sort_students():
+
+    # Definir los puntos de cada estudiante
+    harry = 20
+    hermione = 25
+    ron = 18
+    draco = 30
+
+    # Calcular los puntos de cada casa
+    gryffindor = calc_points(harry, hermione, ron)
+    slytherin = calc_points(draco, 0, 0)
+
+    # Imprimir los resultados
+    print("Puntos de Gryffindor: ", gryffindor)
+    print("Puntos de Slytherin: ", slytherin)
+
+
+# Llamar a la función para ejecutar el código
+sort_students()
